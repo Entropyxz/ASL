@@ -8,9 +8,11 @@ The goal of this project is to classify ASL gestures (letters A-Z, and special g
 - **Mediapipe Hands** for detecting hand landmarks and computing bounding boxes.
 - **TensorFlow/Keras CNN model** for gesture classification.
 
-The repository includes:
-- Code for preprocessing, gesture detection, and real-time predictions.
-- A saved TensorFlow/Keras model (`asl_classification_model.keras`).
+
+## File Structure
+
+- `ASL_App.ipynb`: Jupyter Notebook containing the implementation.
+- `README.md`: Project documentation.
 
 ---
 
@@ -30,15 +32,7 @@ The repository includes:
    git clone https://git.txstate.edu/cac570/CS-4337.git
    cd CS-4337
    ```
-2. Place the saved model (`asl_classification_model.keras`) in the root directory.
-
----
-
-## File Structure
-
-- `ASL_App.ipynb`: Jupyter Notebook containing the implementation.
-- `asl_classification_model.keras`: Saved TensorFlow/Keras model.
-- `README.md`: Project documentation.
+2. Place the saved model (`asl_classification_model.keras`) in the root directory.(Uploaded on Canvas)
 
 ---
 
