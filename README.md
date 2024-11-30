@@ -22,18 +22,36 @@ The goal of this project is to classify ASL gestures (letters A-Z, and special g
 - **Bounding Box Visualization**: Visual feedback with bounding boxes and confidence scores for predictions.
 
 ---
+## Instructions
+
+### Environment Setup
+1. **Python Version**: The project requires Python 3.10 for compatibility with MediaPipe.
+2. **Create a New Environment**:
+   ```bash
+   conda create -n mediapipe_env python=3.10
+   conda activate mediapipe_env
+   ```
+3. **Install Dependencies**:
+   ```bash
+   pip install mediapipe tensorflow opencv-python matplotlib
+
 
 ## Setup Instructions
-
-### Installation
-
 1. Clone the repository:
    ```bash
    git clone https://git.txstate.edu/cac570/CS-4337.git
    cd CS-4337
    ```
-2. Place the saved model (`asl_classification_model.keras`) in the root directory.(Uploaded on Canvas)
-
+2. Place the saved model (`asl_classification_model.keras`) in the root directory. (Uploaded on Canvas)
+3. Activate the environment:
+   ```bash
+   conda activate mediapipe_env
+   ```
+4. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+5. Run the training script or load the pre-trained model for testing.
 ---
 
 ## How to Run the Code
