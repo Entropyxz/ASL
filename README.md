@@ -67,15 +67,6 @@ Show ASL gestures to the webcam and observe real-time predictions!
 
 ---
 
-## Example Output
-
-### Webcam Output
-- Bounding box drawn around the detected hand.
-- Predicted gesture and confidence score displayed above the bounding box.
-
-![Example Output](path/to/example-output-image.png)
-
----
 
 ## Future Work
 
