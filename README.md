@@ -42,7 +42,7 @@ The goal of this project is to classify ASL gestures (letters A-Z, and special g
    git clone https://git.txstate.edu/cac570/CS-4337.git
    cd CS-4337
    ```
-2. Place the saved model (`asl_classification_model.keras`) in the root directory. (Uploaded on Canvas)
+2. Place the saved model (`asl_classification_model.keras`) in the root directory.
 3. Activate the environment:
    ```bash
    conda activate mediapipe_env
