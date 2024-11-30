@@ -34,6 +34,14 @@ The repository includes:
 
 ---
 
+## File Structure
+
+- `ASL_App.ipynb`: Jupyter Notebook containing the implementation.
+- `asl_classification_model.keras`: Saved TensorFlow/Keras model.
+- `README.md`: Project documentation.
+
+---
+
 ## How to Run the Code
 
 ### Run with Webcam Input
@@ -58,15 +66,6 @@ Show ASL gestures to the webcam and observe real-time predictions!
 - **Trained on**: ASL dataset with 64x64 resized images.
 
 ---
-
-## File Structure
-
-- `ASL_App.ipynb`: Jupyter Notebook containing the implementation.
-- `asl_classification_model.keras`: Saved TensorFlow/Keras model.
-- `README.md`: Project documentation.
-
----
-
 
 ## Future Work
 
